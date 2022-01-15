@@ -1,0 +1,6 @@
+
+look in the room list for a room with same tags if he find one then that's the roomId
+if not he will make a room and that's the roomId
+now make him wait 5 secs until there is two users in the room 
+if nothing happens in 5 secs connect him to first room if it exists if not tell him to try later
+when there is two in same room connect both to same room using sockets

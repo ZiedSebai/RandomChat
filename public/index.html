@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Random Chat</title>
+</head> 
+<body>
+<div class="container">
+<section class="navbar">
+  <img id="logo" src="img/logo.png" alt="">
+</section>
+<section class="content">
+  <div class="chat">
+    <div class="chat-box">
+      <div class="msg-box"><p class="msg bot">Looking for Someone to chat with...</p></div>
+    </div>
+    <div class="message-send">
+      <button id="next-stop" class="stopnotnext" onclick="stopnotnext()">Stop</button>
+      <textarea name="uMsg" cols="30" rows="10" class="message" disabled></textarea>
+      <button id="send" onclick="writeMsg()">Send</button>
+    </div>
+  </div>
+</div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+<script src="https://cdn.socket.io/4.4.0/socket.io.min.js" integrity="sha384-1fOn6VtTq3PWwfsOrk45LnYcGosJwzMHv+Xh/Jx5303FVOXzEnw0EpLv30mtjmlj" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>

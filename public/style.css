@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Shippori Antique', sans-serif;
+  overflow: hidden;
+
+}
+html{
+  height: 100%;
+}
+body{
+  background-color: #F0E9D2;
+  height: 100%;
+}
+.container{
+  height: 100%;
+  width: 100%;
+  display:flex;
+  flex-direction:column;
+}
+#logo{
+  height: 45px;
+  display: block;
+  position: relative;
+
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.navbar{
+  height: 60px;
+  min-height: 60px;
+  width: 100%;
+  background-color: #181D31;
+  box-shadow: 0px 0px 10px #aaaaaa;
+  justify-content: center;
+  display: flex;
+}
+.add-tag{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  min-width: 300px;
+}
+.add-input{
+  display: inline-block;
+}
+.start-chat{
+  margin: auto;
+  min-width: 300px;
+}
+.start-chat button{
+  position: relative;
+  font-size: 40px;
+  padding: 10px;
+  background-color: #4d5b91;
+  color: white;
+  border: none;
+  min-width: 300px;
+  border-radius: 20px;
+}
+.chat.start{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+.start-chat{
+  color:white;
+}
+.add-tag h3{ 
+  color: white;
+  display: inline-block;
+  margin: 5px;
+}
+.tag{
+  width: 250px;
+  height: 40px;
+  font-size: 18px;
+  border-color: black;
+  border-right: none;
+
+}
+#addtag{
+  height: 40px;
+  width: 60px;
+  font-size: 15px;
+  background-color: white;
+  border-color: black;
+  color: black;
+}
+#addtagform{
+  display: flex;
+}
+.tags{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 350px;
+}
+.tags p{
+  display: inline-block;
+  background-color: #5063af;
+  color: white;
+  margin: 10px;
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+.tags .fa-times-circle{
+  position: relative;
+
+}
+.tags button{
+  position: relative;
+  background: none;
+  border: none;
+  color:white;
+  font-size: 16px;
+  top: 2px;
+  left: 5px;
+}
+.chat{
+  width: 100%;
+  max-width: 820px;
+  height: 100%  ;
+  margin: auto;
+  background-color: #2c3144;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.chat-box{
+  width: 100%;
+  max-width: 800px;
+  margin: 10px auto 10px auto;
+  border-radius: 8px;
+  background-color: white;
+  padding: 10px;
+  height: 100%;
+  overflow-y: auto;  
+}
+.message-send{
+  width: 100%;
+  max-width: 800px;
+  height: 50px;
+  margin: 0 auto 10px auto;
+  border-radius: 8px;
+  background-color: #2c3144;
+  display: flex;
+  flex-direction: row;
+}
+.message{
+  flex-grow: 1;
+  margin-left: 6px;
+  margin-right: 6px;
+  border-radius: 8px;
+  font-size: 15px;
+  resize: none;
+  border-style: none;
+  padding: 3px 4px 3px 4px;
+  border-color: Transparent;
+  overflow: auto;
+  outline: none;
+}
+.message:disabled{
+  background-color: rgb(220, 220, 220);
+}
+#send{
+  float: right;
+  background-color: #2c3144;
+  border: 1px solid white;
+  border-radius: 8px;
+  color: white;
+  width: 80px;
+  font-size: 18px;
+}
+#next-stop{
+  float: left;
+  background-color: #2c3144;
+  border: 1px solid white;
+  border-radius: 8px;
+  color: white;
+  width: 80px;
+  font-size: 18px;
+}
+.content{
+  flex-grow: 1;
+}
+.msg-box{
+  margin: 5px;
+  margin-bottom: 0;
+}
+.msg{
+  border-radius: 15px;
+  color: white;
+  padding: 8px 10px;
+  display: block;
+  word-break: break-all;
+}
+.msg.bot{
+  text-align:center;
+  word-break: normal;
+  color:grey;
+}
+.anon{
+  float: left;
+  background-color: #2c3144;
+}
+.usr{
+  float: right;
+  background-color: #3ba9d4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
